@@ -1,8 +1,12 @@
 package net.vantaforge.sowandsimmer;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
+import net.vantaforge.sowandsimmer.block.ModBlocks;
+import net.vantaforge.sowandsimmer.item.ModCreativeModeTabs;
+import net.vantaforge.sowandsimmer.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -20,6 +24,7 @@ import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
 
+
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(SowAndSimmer.MOD_ID)
 public class SowAndSimmer {
@@ -34,6 +39,10 @@ public class SowAndSimmer {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.

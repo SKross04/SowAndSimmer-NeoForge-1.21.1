@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "sowandsimmer:garlic"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "sowandsimmer:garlic_clove"
+  }
+}
