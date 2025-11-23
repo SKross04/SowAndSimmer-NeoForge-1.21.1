@@ -1,1 +1,4 @@
-// 1.21.1	2025-11-22T20:32:46.0476784	Loot Tables
+// 1.21.1	2025-11-23T16:03:24.0577527	Loot Tables
+fc82dc556da0e0737eb87212dfa131d46894949e data/sowandsimmer/loot_table/blocks/garlic_crop.json
+93f4dbe0c56eb95e0f918c484b9c0151a5300008 data/sowandsimmer/loot_table/blocks/onion_crop.json
+c91faaa109f297672482c505ac483b62b5f5a8e1 data/sowandsimmer/loot_table/blocks/red_onion_crop.json

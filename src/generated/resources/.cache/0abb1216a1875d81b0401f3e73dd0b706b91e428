@@ -1,4 +1,9 @@
-// 1.21.1	2025-11-22T20:32:46.1176218	Item Models: sowandsimmer
+// 1.21.1	2025-11-23T16:36:54.3838265	Item Models: sowandsimmer
+e3d55d89148871bbc2d2058b42b293892531c4a7 assets/sowandsimmer/models/item/diced_onion.json
+10aa06c86fe2efce163f81c171ede55a09366b0e assets/sowandsimmer/models/item/diced_red_onion.json
 6456d1d16cf7a118f387180b1cbd10e85f0c6a13 assets/sowandsimmer/models/item/garlic.json
 1387a97e9668490e86a59768dbcc6bb559c6340b assets/sowandsimmer/models/item/garlic_clove.json
 c1b4dca0acfb6ba10577a6f40e7122e504051fdb assets/sowandsimmer/models/item/onion.json
+88172b92222eda3e98c3538a7ac94b778b1f58c2 assets/sowandsimmer/models/item/onion_seeds.json
+10bbae38411625868a04196f440379ada65ce5a9 assets/sowandsimmer/models/item/red_onion.json
+b250a2b0b7a0f2ff3fe091eac4aa76124b45a694 assets/sowandsimmer/models/item/red_onion_seeds.json

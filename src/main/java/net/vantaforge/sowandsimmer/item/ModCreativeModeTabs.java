@@ -19,7 +19,12 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("itemGroup.sowandsimmer.sow_and_simmer_items_tab"))
                     .icon(() -> new ItemStack(ModItems.ONION.get()))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModItems.ONION_SEEDS);
                         output.accept(ModItems.ONION);
+                        output.accept(ModItems.DICED_ONION);
+                        output.accept(ModItems.RED_ONION_SEEDS);
+                        output.accept(ModItems.RED_ONION);
+                        output.accept(ModItems.DICED_RED_ONION);
                         output.accept(ModItems.GARLIC);
                         output.accept(ModItems.GARLIC_CLOVE);
 

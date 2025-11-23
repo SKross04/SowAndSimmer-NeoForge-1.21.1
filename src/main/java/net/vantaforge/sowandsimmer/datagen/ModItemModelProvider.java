@@ -14,6 +14,11 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         basicItem(ModItems.ONION.get());
+        basicItem(ModItems.RED_ONION.get());
+        basicItem(ModItems.ONION_SEEDS.get());
+        basicItem(ModItems.DICED_RED_ONION.get());
+        basicItem(ModItems.DICED_ONION.get());
+        basicItem(ModItems.RED_ONION_SEEDS.get());
         basicItem(ModItems.GARLIC.get());
         basicItem(ModItems.GARLIC_CLOVE.get());
     }

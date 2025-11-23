@@ -1,10 +1,17 @@
 {
   "item.sowandsimmer.onion": "Onion",
+  "item.sowandsimmer.red_onion": "Red Onion",
+  "item.sowandsimmer.onion_seeds": "Onion Seeds",
+  "item.sowandsimmer.red_onion_seeds": "Red Onion Seeds",
+  "item.sowandsimmer.diced_onion": "Diced Onion",
+  "item.sowandsimmer.diced_red_onion": "Diced Red Onion",
   "item.sowandsimmer.garlic": "Garlic",
   "item.sowandsimmer.garlic_clove": "Garlic Clove",
 
 
-
+  "block.sowandsimmer.onion_crop": "Onion Crop",
+  "block.sowandsimmer.red_onion_crop": "Red Onion Crop",
+  "block.sowandsimmer.garlic_crop": "Garlic Crop",
 
   "itemGroup.sowandsimmer.sow_and_simmer_items_tab": "Sow & Simmer"
 }
