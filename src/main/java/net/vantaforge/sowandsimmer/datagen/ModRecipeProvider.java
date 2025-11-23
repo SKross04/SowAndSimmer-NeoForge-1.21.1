@@ -26,5 +26,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.GARLIC_CLOVE.get(),4)
                 .requires(ModItems.GARLIC.get())
                 .unlockedBy("has_garlic", has(ModItems.GARLIC.get())).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.DICED_ONION.get(),4)
+                .requires(ModItems.ONION.get())
+                .unlockedBy("has_onion", has(ModItems.ONION.get())).save(recipeOutput);
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, ModItems.DICED_RED_ONION.get(),4)
+                .requires(ModItems.RED_ONION.get())
+                .unlockedBy("has_red_onion", has(ModItems.RED_ONION.get())).save(recipeOutput);
     }
 }
